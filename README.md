@@ -1,3 +1,9 @@
+# Download NodeJs and Install Angular cli
+
+First download NodeJs, Install it and set its path in environment variable. 
+Open nodejs command prompt run command "npm install -g @angular/cli". Link for reference "https://angular.io/cli"
+Then type "ng new YourProjectName" for generating new project. Click enter twice for generate project with default routing and css file.
+
 # MyDreamApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
