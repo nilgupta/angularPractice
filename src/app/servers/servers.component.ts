@@ -10,6 +10,7 @@ addNewServers =false;
 serverCreationStatus = 'No server was created';
 serverName = 'TestServer';
 showStatus= false;
+servers = ['Test Server', 'Test Server 2']
   constructor(  ) { 
     setTimeout(() => {
       this.addNewServers=true;
@@ -20,6 +21,7 @@ showStatus= false;
   }
 onchangeServerStatus(){
   this.serverCreationStatus = 'server was created! name is' + this.serverName ;
+  this.servers.push(this.serverName);
   this.showStatus = true;
 }
 onUpdateServerName(event :Event){
